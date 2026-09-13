@@ -1,0 +1,31 @@
+farm_id,zone_id,location,state,timezone,crop_type,ph_min,ph_max,ec_min_ms_cm,ec_max_ms_cm,water_temp_min_c,water_temp_max_c,humidity_min_pct,humidity_max_pct,do_min_mg_l,water_level_min_cm,water_level_max_cm,active_flag
+FARM-AUSTIN-01,BAY-01,Austin,Texas,America/Chicago,Lettuce,6.0,7.0,1.2,1.8,18.0,24.0,55.0,75.0,6.0,16.5,22.0,True
+FARM-AUSTIN-01,BAY-02,Austin,Texas,America/Chicago,Basil,5.5,6.0,1.0,1.6,18.0,25.0,50.0,70.0,6.0,16.5,22.0,True
+FARM-CHICAGO-01,BAY-01,Chicago,Illinois,America/Chicago,Spinach,6.0,7.0,1.8,2.3,17.0,23.0,55.0,75.0,6.0,16.5,22.0,True
+FARM-CHICAGO-01,BAY-02,Chicago,Illinois,America/Chicago,Strawberry,5.8,6.2,1.8,2.2,18.0,24.0,55.0,75.0,6.0,16.5,22.0,True
+FARM-SEATTLE-01,BAY-01,Seattle,Washington,America/Los_Angeles,Cucumber,5.0,5.5,1.7,2.0,18.0,25.0,60.0,80.0,6.0,16.5,22.0,True
+FARM-SEATTLE-01,BAY-02,Seattle,Washington,America/Los_Angeles,Cherry Tomatoes,6.0,6.5,2.0,4.0,18.0,25.0,55.0,75.0,6.0,16.5,22.0,True
+FARM-DENVER-01,BAY-01,Denver,Colorado,America/Denver,Lettuce,6.0,7.0,1.2,1.8,18.0,24.0,55.0,75.0,6.0,16.5,22.0,True
+FARM-DENVER-01,BAY-02,Denver,Colorado,America/Denver,Basil,5.5,6.0,1.0,1.6,18.0,25.0,50.0,70.0,6.0,16.5,22.0,True
+FARM-MIAMI-01,BAY-01,Miami,Florida,America/New_York,Spinach,6.0,7.0,1.8,2.3,17.0,23.0,55.0,75.0,6.0,16.5,22.0,True
+FARM-MIAMI-01,BAY-02,Miami,Florida,America/New_York,Strawberry,5.8,6.2,1.8,2.2,18.0,24.0,55.0,75.0,6.0,16.5,22.0,True
+FARM-BOSTON-01,BAY-01,Boston,Massachusetts,America/New_York,Cucumber,5.0,5.5,1.7,2.0,18.0,25.0,60.0,80.0,6.0,16.5,22.0,True
+FARM-BOSTON-01,BAY-02,Boston,Massachusetts,America/New_York,Cherry Tomatoes,6.0,6.5,2.0,4.0,18.0,25.0,55.0,75.0,6.0,16.5,22.0,True
+FARM-DALLAS-01,BAY-01,Dallas,Texas,America/Chicago,Lettuce,6.0,7.0,1.2,1.8,18.0,24.0,55.0,75.0,6.0,16.5,22.0,True
+FARM-DALLAS-01,BAY-02,Dallas,Texas,America/Chicago,Basil,5.5,6.0,1.0,1.6,18.0,25.0,50.0,70.0,6.0,16.5,22.0,True
+FARM-ATLANTA-01,BAY-01,Atlanta,Georgia,America/New_York,Spinach,6.0,7.0,1.8,2.3,17.0,23.0,55.0,75.0,6.0,16.5,22.0,True
+FARM-ATLANTA-01,BAY-02,Atlanta,Georgia,America/New_York,Strawberry,5.8,6.2,1.8,2.2,18.0,24.0,55.0,75.0,6.0,16.5,22.0,True
+FARM-PHOENIX-01,BAY-01,Phoenix,Arizona,America/Phoenix,Cucumber,5.0,5.5,1.7,2.0,18.0,25.0,60.0,80.0,6.0,16.5,22.0,True
+FARM-PHOENIX-01,BAY-02,Phoenix,Arizona,America/Phoenix,Cherry Tomatoes,6.0,6.5,2.0,4.0,18.0,25.0,55.0,75.0,6.0,16.5,22.0,True
+FARM-SANJOSE-01,BAY-01,San Jose,California,America/Los_Angeles,Lettuce,6.0,7.0,1.2,1.8,18.0,24.0,55.0,75.0,6.0,16.5,22.0,True
+FARM-SANJOSE-01,BAY-02,San Jose,California,America/Los_Angeles,Basil,5.5,6.0,1.0,1.6,18.0,25.0,50.0,70.0,6.0,16.5,22.0,True
+FARM-DETROIT-01,BAY-01,Detroit,Michigan,America/Detroit,Spinach,6.0,7.0,1.8,2.3,17.0,23.0,55.0,75.0,6.0,16.5,22.0,True
+FARM-DETROIT-01,BAY-02,Detroit,Michigan,America/Detroit,Strawberry,5.8,6.2,1.8,2.2,18.0,24.0,55.0,75.0,6.0,16.5,22.0,True
+FARM-ORLANDO-01,BAY-01,Orlando,Florida,America/New_York,Cucumber,5.0,5.5,1.7,2.0,18.0,25.0,60.0,80.0,6.0,16.5,22.0,True
+FARM-ORLANDO-01,BAY-02,Orlando,Florida,America/New_York,Cherry Tomatoes,6.0,6.5,2.0,4.0,18.0,25.0,55.0,75.0,6.0,16.5,22.0,True
+FARM-PORTLAND-01,BAY-01,Portland,Oregon,America/Los_Angeles,Lettuce,6.0,7.0,1.2,1.8,18.0,24.0,55.0,75.0,6.0,16.5,22.0,True
+FARM-PORTLAND-01,BAY-02,Portland,Oregon,America/Los_Angeles,Basil,5.5,6.0,1.0,1.6,18.0,25.0,50.0,70.0,6.0,16.5,22.0,True
+FARM-HOUSTON-01,BAY-01,Houston,Texas,America/Chicago,Spinach,6.0,7.0,1.8,2.3,17.0,23.0,55.0,75.0,6.0,16.5,22.0,True
+FARM-HOUSTON-01,BAY-02,Houston,Texas,America/Chicago,Strawberry,5.8,6.2,1.8,2.2,18.0,24.0,55.0,75.0,6.0,16.5,22.0,True
+FARM-NEWYORK-01,BAY-01,New York,New York,America/New_York,Cucumber,5.0,5.5,1.7,2.0,18.0,25.0,60.0,80.0,6.0,16.5,22.0,True
+FARM-NEWYORK-01,BAY-02,New York,New York,America/New_York,Cherry Tomatoes,6.0,6.5,2.0,4.0,18.0,25.0,55.0,75.0,6.0,16.5,22.0,True

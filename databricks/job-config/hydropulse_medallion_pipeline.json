@@ -1,0 +1,101 @@
+{
+  "created_time": 1787995191254,
+  "creator_user_name": "darshananilchavan3@gmail.com",
+  "job_id": 1056928483504928,
+  "run_as_user_name": "darshananilchavan3@gmail.com",
+  "settings": {
+    "email_notifications": {
+      "no_alert_for_skipped_runs": false
+    },
+    "format": "MULTI_TASK",
+    "max_concurrent_runs": 1,
+    "name": "hydropulse_medallion_pipeline",
+    "performance_target": "PERFORMANCE_OPTIMIZED",
+    "queue": {
+      "enabled": true
+    },
+    "tasks": [
+      {
+        "disabled": false,
+        "email_notifications": {},
+        "notebook_task": {
+          "notebook_path": "/Workspace/Users/darshananilchavan3@gmail.com/03_bronze_iot_ingestion",
+          "source": "WORKSPACE"
+        },
+        "run_if": "ALL_SUCCESS",
+        "task_key": "bronze_iot_ingestion",
+        "timeout_seconds": 0,
+        "webhook_notifications": {}
+      },
+      {
+        "depends_on": [
+          {
+            "task_key": "bronze_iot_ingestion"
+          }
+        ],
+        "disabled": false,
+        "email_notifications": {},
+        "notebook_task": {
+          "notebook_path": "/Workspace/Users/darshananilchavan3@gmail.com/04_silver_iot_transformation",
+          "source": "WORKSPACE"
+        },
+        "run_if": "ALL_SUCCESS",
+        "task_key": "silver_iot_transformation",
+        "timeout_seconds": 0,
+        "webhook_notifications": {}
+      },
+      {
+        "depends_on": [
+          {
+            "task_key": "silver_iot_transformation"
+          }
+        ],
+        "disabled": false,
+        "email_notifications": {},
+        "notebook_task": {
+          "notebook_path": "/Workspace/Users/darshananilchavan3@gmail.com/05_gold_current_status",
+          "source": "WORKSPACE"
+        },
+        "run_if": "ALL_SUCCESS",
+        "task_key": "gold_current_status",
+        "timeout_seconds": 0,
+        "webhook_notifications": {}
+      },
+      {
+        "depends_on": [
+          {
+            "task_key": "gold_current_status"
+          }
+        ],
+        "disabled": false,
+        "email_notifications": {},
+        "notebook_task": {
+          "notebook_path": "/Workspace/Users/darshananilchavan3@gmail.com/06_gold_alerts",
+          "source": "WORKSPACE"
+        },
+        "run_if": "ALL_SUCCESS",
+        "task_key": "gold_alerts",
+        "timeout_seconds": 0,
+        "webhook_notifications": {}
+      },
+      {
+        "depends_on": [
+          {
+            "task_key": "gold_alerts"
+          }
+        ],
+        "disabled": false,
+        "email_notifications": {},
+        "notebook_task": {
+          "notebook_path": "/Workspace/Users/darshananilchavan3@gmail.com/07_gold_daily_kpi",
+          "source": "WORKSPACE"
+        },
+        "run_if": "ALL_SUCCESS",
+        "task_key": "gold_daily_kpi",
+        "timeout_seconds": 0
+      }
+    ],
+    "timeout_seconds": 0,
+    "webhook_notifications": {}
+  }
+}

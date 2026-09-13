@@ -1,0 +1,41 @@
+# Secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# macOS
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Spark
+spark-warehouse/
+metastore_db/
+derby.log
+
+# Logs
+*.log
+
+# Videos
+video/
+*.mp4
+*.mov
+
+# Azure/export backups
+azure/
+adf/
+*.zip
+
+# Local/setup Databricks files
+databricks/01_test_adls_access.py
+databricks/unity-catalog/
+databricks/.db_internal/
